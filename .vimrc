@@ -11,13 +11,14 @@ set laststatus=2
 " Vundle
 filetype off
 set nocompatible
-set rtp+=~/.vim/bundle/vundle
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
-Bundle 'gmarik/vundle'
-Bundle 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'vim-airline/vim-airline'
+Plugin 'neovimhaskell/haskell-vim'
 
-
+call vundle#end()
 filetype plugin indent on
 
 " Make it visually pleasing.
@@ -42,7 +43,8 @@ set background=dark
 "color oceanblack
 "color tir_black
 "color zmrok
-color zendnb
+"color zendnb
+color lettuce
 
 if has("multi_byte")
   if &termencoding == ""
