@@ -10,3 +10,4 @@
     https://github.com/flazz/vim-colorschemes
     https://github.com/noahfrederick/vim-composer
     https://github.com/airblade/vim-gitgutter
+    https://github.com/rust-lang/rust.vim
